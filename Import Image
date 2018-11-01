@@ -1,0 +1,11 @@
+import tensorflow as tf
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
+import os
+
+# First, load the image again
+dir_path = os.getcwd()
+filename = dir_path + '/desktop/lion1.png'
+#print(dir_path)
+img=mpimg.imread(filename)
+imgplot = plt.imshow(img)
